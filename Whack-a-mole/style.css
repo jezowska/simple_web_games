@@ -1,0 +1,40 @@
+* {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-board {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 0 5rem ;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+.mole {
+    background-image: url('./mole.jpg');
+    background-size: cover;
+}
